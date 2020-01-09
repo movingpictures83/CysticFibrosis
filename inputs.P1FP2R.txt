@@ -1,0 +1,5 @@
+pipelines/16SrRNA/release9_60_unaligned.fasta
+pipelines/16SrRNA/temp
+pipelines/16SrRNA/temp1
+GCGGCGTGCCTAATACATGC
+TTCCCCACGCGTTACTCACC

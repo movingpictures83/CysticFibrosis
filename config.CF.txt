@@ -1,0 +1,29 @@
+Prefix pipelines/16SrRNA
+
+# Extractions
+Plugin Extract inputfile inputs.Bc.txt outputfile Bc.fasta
+Plugin Extract inputfile inputs.BC.txt outputfile BC.fasta
+Plugin Extract inputfile inputs.Bm.txt outputfile Bm.fasta
+Plugin Extract inputfile inputs.Bp.txt outputfile Bp.fasta
+Plugin Extract inputfile inputs.BM.txt outputfile BM.fasta
+Plugin Extract inputfile inputs.Bx.txt outputfile Bx.fasta
+Plugin Extract inputfile inputs.Bv.txt outputfile Bv.fasta
+Plugin Extract inputfile inputs.Bt.txt outputfile Bt.fasta
+Plugin Extract inputfile inputs.Bs.txt outputfile Bs.fasta
+Plugin Extract inputfile inputs.VF.txt outputfile VF.fasta
+Plugin Extract inputfile inputs.VH.txt outputfile VH.fasta
+Plugin Extract inputfile inputs.VP.txt outputfile VP.fasta
+Plugin Extract inputfile inputs.VC.txt outputfile VC.fasta
+Plugin Extract inputfile inputs.VV.txt outputfile VV.fasta
+Plugin Extract inputfile inputs.PA.txt outputfile PA.fasta
+
+# Information
+Plugin ProcessDesc inputfile release9_60_unaligned.fasta outputfile information.txt
+
+
+# Amplicons
+Plugin Amplicon inputfile inputs.27F355R.txt outputfile 27F355R_MD.xls
+Plugin Amplicon inputfile inputs.P1FP2R.txt outputfile P1FP2R_MD.xls
+Plugin Amplicon inptufile inputs.MD.txt outputfile P1FP2R_MDSamples.xls
+
+
