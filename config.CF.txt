@@ -1,29 +1,29 @@
 Prefix pipelines/16SrRNA
 
 # Extractions
-Plugin Extract inputfile inputs.Bc.txt outputfile Bc.fasta
-Plugin Extract inputfile inputs.BC.txt outputfile BC.fasta
-Plugin Extract inputfile inputs.Bm.txt outputfile Bm.fasta
-Plugin Extract inputfile inputs.Bp.txt outputfile Bp.fasta
-Plugin Extract inputfile inputs.BM.txt outputfile BM.fasta
-Plugin Extract inputfile inputs.Bx.txt outputfile Bx.fasta
-Plugin Extract inputfile inputs.Bv.txt outputfile Bv.fasta
-Plugin Extract inputfile inputs.Bt.txt outputfile Bt.fasta
-Plugin Extract inputfile inputs.Bs.txt outputfile Bs.fasta
-Plugin Extract inputfile inputs.VF.txt outputfile VF.fasta
-Plugin Extract inputfile inputs.VH.txt outputfile VH.fasta
-Plugin Extract inputfile inputs.VP.txt outputfile VP.fasta
-Plugin Extract inputfile inputs.VC.txt outputfile VC.fasta
-Plugin Extract inputfile inputs.VV.txt outputfile VV.fasta
-Plugin Extract inputfile inputs.PA.txt outputfile PA.fasta
+Plugin Extract inputfile input/inputs.Bc.txt outputfile FASTA/Bc.fasta
+Plugin Extract inputfile input/inputs.BC.txt outputfile FASTA/BC.fasta
+Plugin Extract inputfile input/inputs.Bm.txt outputfile FASTA/Bm.fasta
+Plugin Extract inputfile input/inputs.Bp.txt outputfile FASTA/Bp.fasta
+Plugin Extract inputfile input/inputs.BM.txt outputfile FASTA/BM.fasta
+Plugin Extract inputfile input/inputs.Bx.txt outputfile FASTA/Bx.fasta
+Plugin Extract inputfile input/inputs.Bv.txt outputfile FASTA/Bv.fasta
+Plugin Extract inputfile input/inputs.Bt.txt outputfile FASTA/Bt.fasta
+Plugin Extract inputfile input/inputs.Bs.txt outputfile FASTA/Bs.fasta
+Plugin Extract inputfile input/inputs.VF.txt outputfile FASTA/VF.fasta
+Plugin Extract inputfile input/inputs.VH.txt outputfile FASTA/VH.fasta
+Plugin Extract inputfile input/inputs.VP.txt outputfile FASTA/VP.fasta
+Plugin Extract inputfile input/inputs.VC.txt outputfile FASTA/VC.fasta
+Plugin Extract inputfile input/inputs.VV.txt outputfile FASTA/VV.fasta
+Plugin Extract inputfile input/inputs.PA.txt outputfile FASTA/PA.fasta
 
 # Information
 Plugin ProcessDesc inputfile release9_60_unaligned.fasta outputfile information.txt
 
 
 # Amplicons
-Plugin Amplicon inputfile inputs.27F355R.txt outputfile 27F355R_MD.xls
-Plugin Amplicon inputfile inputs.P1FP2R.txt outputfile P1FP2R_MD.xls
-Plugin Amplicon inptufile inputs.MD.txt outputfile P1FP2R_MDSamples.xls
+Plugin Amplicon inputfile input/inputs.27F355R.txt outputfile XLS/27F355R_MD.xls
+Plugin Amplicon inputfile input/inputs.P1FP2R.txt outputfile XLS/P1FP2R_MD.xls
+Plugin Amplicon inptufile input/inputs.MD.txt outputfile XLS/P1FP2R_MDSamples.xls
 
 

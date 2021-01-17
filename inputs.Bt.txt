@@ -1,2 +1,0 @@
-pipelines/16SrRNA/release9_60_unaligned.fasta
-Burkholderia thailand

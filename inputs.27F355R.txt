@@ -1,6 +1,0 @@
-pipelines/16SrRNA/release9_60_unaligned.fasta
-pipelines/16SrRNA/temp
-pipelines/16SrRNA/temp1
-AGAGTTTGATCCTGGCTCAG
-GCTGCCTCCCGTAGGAGT
-pipelines/16SrRNA/27F355R_MD.xls
