@@ -1,2 +1,2 @@
-pipelines/16SrRNA/release9_60_unaligned.fasta
+pipelines/CysticFibrosis/release9_60_unaligned.fasta
 Pseudomonas aeruginosa

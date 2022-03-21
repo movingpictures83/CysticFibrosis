@@ -1,5 +1,5 @@
-pipelines/16SrRNA/release9_60_unaligned.fasta
-pipelines/16SrRNA/temp
-pipelines/16SrRNA/temp1
+pipelines/CysticFibrosis/release9_60_unaligned.fasta
+pipelines/CysticFibrosis/temp
+pipelines/CysticFibrosis/temp1
 GCGGCGTGCCTAATACATGC
 TTCCCCACGCGTTACTCACC
