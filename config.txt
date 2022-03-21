@@ -1,4 +1,4 @@
-Prefix pipelines/16SrRNA
+Prefix pipelines/CysticFibrosis
 
 # Extractions
 Plugin Extract inputfile input/inputs.Bc.txt outputfile FASTA/Bc.fasta
